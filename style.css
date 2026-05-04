@@ -9,7 +9,6 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center; 
-
     text-align: center;
     justify-content: center;
     padding: 30px;
@@ -21,6 +20,7 @@ body{
     background-repeat: no-repeat;
     width: 300px;
     height: 50px;
+
 
 }
 
@@ -40,16 +40,20 @@ body{
   width: 100%;
   max-width: 600px;
   margin: 0 auto 20px auto;
+
+/*add sombra na barra de busca*/
   box-shadow: 
   0 10px 20px rgba(0, 0, 0, 0.15),
-  0 6px 6px rgba(0, 0, 0, 0.10);} /*add sombra na barra de busca*/
-
+  0 6px 6px rgba(0, 0, 0, 0.10);} 
+  
+  /*estilizando o ícone */
 .busca span {
   margin-left: 10px;
   margin-right: 8px;
   font-size: 16px;
 }
 
+/*estilizando o botão */
 .busca button {
   background-color: #F4A21E;
   color: white;
@@ -58,4 +62,26 @@ body{
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
+  box-shadow:0 10px 20px rgba(0, 0, 0, 0.15),
+  0 6px 6px rgba(0, 0, 0, 0.10);
+}
+
+/*alinhando botão de buscar*/
+.busca input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.busca button:hover {
+  background-color: #d98f17;
+}
+
+.tags button{
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  
 }
