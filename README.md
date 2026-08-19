@@ -1,2 +1,0 @@
-# TudoPronto
-Código TudoPronto
